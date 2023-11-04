@@ -1,7 +1,7 @@
 .sidebar-container {
-  background-color: green;
+  background-color: rgb(205, 201, 201);
   color: white;
-  width: 55px;
+  width: 80px;
   top: 80px;
   bottom: 0;
   left: 0;
@@ -13,4 +13,16 @@
   border-bottom-style: solid;
   border-bottom-color: rgb(175, 175, 175);
   z-index: 99;
+
+  border: 1px solid black;
+
+}
+
+.sidebar-image {
+  width: 32px;
+}
+
+.navigation-button {
+
+  width: 32px;
 }
