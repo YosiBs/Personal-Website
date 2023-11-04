@@ -1,5 +1,5 @@
 .sidebar-container {
-  background-color: rgb(205, 201, 201);
+  background-color: white;
   color: white;
   width: 80px;
   top: 80px;
@@ -14,7 +14,8 @@
   border-bottom-color: rgb(175, 175, 175);
   z-index: 99;
 
-  border: 1px solid black;
+  border: none;
+  border-radius: 10px;
 
 }
 
