@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding-top: 80px;
-  padding-left: 80px;
-  background-color: lightgray;
+  padding-left: 160px;
+  background-color: hsl(207, 4%, 99%);
 }
 
 p {

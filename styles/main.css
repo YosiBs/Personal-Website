@@ -1,4 +1,17 @@
 .profile-picture {
-  width: 200px;
-  border-radius: 100px;
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 25px;
+  margin-top: 25px;
+
+
+}
+
+.profile-picture-container {
+  background-color: transparent;
+  width: 350px;
+  height: 450px;
+  border: 1px solid rgb(137, 132, 132);
+  border-radius: 250px;
+
 }

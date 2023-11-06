@@ -1,29 +1,52 @@
 .sidebar-container {
-  background-color: white;
+  background-color: hsl(207, 4%, 80%);
   color: white;
-  width: 80px;
+  width: 150px;
   top: 80px;
   bottom: 0;
   left: 0;
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(175, 175, 175);
   z-index: 99;
-
   border: none;
   border-radius: 10px;
 
 }
 
-.sidebar-image {
-  width: 32px;
+/*---------------Upper-Section-------------------*/
+.upper-section-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
 }
 
 .navigation-button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+.sidebar-btn-text {
+  padding: 0;
+  font-family: Roboto, Arial;
+  font-size: 17px;
+  display: inline-block;
+}
 
-  width: 32px;
+.menu-image {
+  
+}
+
+
+
+/*---------------Downer-Section-------------------*/
+.downer-section-container {
+  flex: 2
 }
