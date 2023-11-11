@@ -1,5 +1,5 @@
 .sidebar-container {
-  background-color: hsl(207, 4%, 80%);
+  background-color: var(--sidebar-color);
   color: white;
   width: 150px;
   top: 80px;
@@ -30,18 +30,46 @@
 .navigation-button {
   width: 150px;
   height: 40px;
-  border-radius: 20px;
-  border: 1px solid gray;
+  background-color: var(--sidebar-color);
+  color:  var(--text-color);
+  border-radius: 2px;
+  border: 1px solid transparent;
+  margin: 2px 0px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.15s;
 }
-.sidebar-btn-text {
+
+.navigation-button:hover {
+  background-color: var(--button-on-hover-color);
+}
+.navigation-button:active {
+  opacity: 45%;
+}
+
+.home-btn-text,
+.about-btn-text,
+.skills-btn-text,
+.projects-btn-text,
+.contact-btn-text {
   padding: 0;
   font-family: Roboto, Arial;
-  font-size: 17px;
+  font-size: 20px;
   display: inline-block;
 }
 
-.menu-image {
-  
+
+.home-btn-image,
+.about-btn-image,
+.skills-btn-image,
+.projects-btn-image,
+.contact-btn-image {
+  filter: invert(100%);
+  margin-left: 2px;
 }
 
 
