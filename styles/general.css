@@ -18,3 +18,8 @@ p {
   --button-on-hover-color: #003559; 
 
 }
+
+.h1 {
+  padding: 0;
+  margin: 0;
+}

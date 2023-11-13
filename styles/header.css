@@ -1,5 +1,5 @@
 .header-container {
-  background-color: black;
+  background-color: var(--sidebar-color);
   color: white;
   display: flex;
   flex-direction: row;
