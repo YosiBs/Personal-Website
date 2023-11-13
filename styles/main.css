@@ -6,6 +6,13 @@
   justify-content: space-between;
 }
 
+.home-section-container,
+.about-section-container,
+.skills-section-container,
+.projects-section-container,
+.contact-section-container {
+  height: 99vh;
+}
 
 
 /*=====================HOME-SECTION====================*/
@@ -15,7 +22,7 @@
   height: 450px;
   border: 1px solid rgb(137, 132, 132);
   border-radius: 250px;
-
+  
 }
 .profile-picture {
   width: 300px;
@@ -23,19 +30,11 @@
   margin-left: 25px;
   margin-top: 25px;
   
-
+  
 }
-
 
 /*=====================ABOUT-SECTION====================*/
-.home-section-container,
-.about-section-container,
-.skills-section-container,
-.projects-section-container,
-.contact-section-container {
-  height: 500px;
-  margin-top: 80px;
-}
+
 
 
 

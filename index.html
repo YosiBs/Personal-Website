@@ -5,6 +5,7 @@
   <title>Yosi's Website</title>
 
   <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/sidebar.css">
   <link rel="stylesheet" href="styles/main.css">
@@ -14,33 +15,35 @@
 
 
   <!-- HEADER -->
-  <div class="header-container">
+  <!-- 
+    <header class="header-container">
     <p class="header-headline">
       Yosi's Website
     </p>
-  </div>
+  </header> 
+  -->
 
   <!-- SIDEBAR -->
   <aside class="sidebar-container">
     <nav class="upper-section-container">
       
-      <button class="navigation-button">
+      <button class="navigation-button" data-target="home-section">
         <img class="home-btn-image" src="assets/icons/new-icons/home-2-line.png">
         <p class="nav-btn-text">Home</p>
       </button>
-      <button class="navigation-button">
+      <button class="navigation-button" data-target="about-section">
         <img class="about-btn-image" src="assets/icons/new-icons/file-info-line.png">
         <p class="nav-btn-text">About</p>
       </button>
-      <button class="navigation-button">
+      <button class="navigation-button" data-target="skills-section">
         <img class="skills-btn-image" src="assets/icons/new-icons/checkbox-skills-line.png">
         <p class="nav-btn-text">Skills</p>
       </button>
-      <button class="navigation-button">
-        <img class="projects-btn-image" class="menu-image" src="assets/icons/new-icons/rocket-line.png">
+      <button class="navigation-button" data-target="projects-section">
+        <img class="projects-btn-image" src="assets/icons/new-icons/rocket-line.png">
         <p class="nav-btn-text">Projects</p>
       </button>
-      <button class="navigation-button">
+      <button class="navigation-button" data-target="contact-section">
         <img class="contact-btn-image" src="assets/icons/new-icons/contacts-line.png">
         <p class="nav-btn-text">Contact</p>
       </button>
@@ -107,6 +110,14 @@
       </div>
     </section>
   </main>
+
+  <footer>
+    <div class="footer-container">
+      footer
+    </div>
+
+  </footer>
+
   <script src="scripts/navigation.js"></script>
     
   </body>
