@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sidebar-container {
   background-color: var(--sidebar-color);
   color: white;
@@ -128,4 +129,135 @@
 
 .downer-section-container a{
   text-decoration: none;
+=======
+.sidebar-container {
+  background-color: var(--sidebar-color);
+  color: white;
+  width: 150px;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(175, 175, 175);
+  z-index: 99;
+  border: none;
+}
+
+/*---------------Upper-Section-------------------*/
+.upper-section-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  
+}
+
+.navigation-button {
+  width: 150px;
+  height: 40px;
+  background-color: var(--sidebar-color);
+  color:  var(--text-color);
+  border-radius: 2px;
+  border: 1px solid transparent;
+  margin: 2px 0px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.15s, transform 0.3s;
+  
+}
+
+.navigation-button:hover {
+  background-color: var(--button-on-hover-color);
+  transform: translateX(5px);
+}
+.navigation-button:hover img{
+  animation: imageBounce 0.5s alternate;
+}
+
+.navigation-button:active {
+  opacity: 45%;
+}
+
+.home-btn-text,
+.about-btn-text,
+.skills-btn-text,
+.projects-btn-text,
+.contact-btn-text {
+  padding: 0;
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  display: inline-block;
+}
+
+
+.home-btn-image,
+.about-btn-image,
+.skills-btn-image,
+.projects-btn-image,
+.contact-btn-image {
+  filter: invert(100%);
+  margin-left: 2px;
+}
+
+@keyframes imageBounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+/*---------------Downer-Section-------------------*/
+.downer-section-container {
+  flex: 2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.link-buttons-container {
+  margin-top: 40px;
+  margin-left: 10PX;
+}
+
+.linkedin-btn-image,
+.github-btn-image,
+.facebook-btn-image {
+  filter: invert(100%);
+}
+
+.social-link-btn{
+  background-color: transparent;
+  border: none;
+  transition: background-color 0.15s;
+  cursor: pointer;
+
+}
+
+.social-link-btn:hover {
+  animation: imageBounce 0.5s;
+}
+
+.social-link-btn:active {
+  opacity: 45%;
+}
+
+.downer-section-container a{
+  text-decoration: none;
+>>>>>>> 90f0cfd1b48da0104cc4db6a29d00b369cbf2e39
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*=====================MAIN====================*/
 
 .main-container {
@@ -51,3 +52,59 @@
 
 /*=====================CONTACT-SECTION====================*/
 
+=======
+/*=====================MAIN====================*/
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+/*=====================HOME-SECTION====================*/
+.profile-picture-container {
+  background-color: transparent;
+  width: 350px;
+  height: 450px;
+  border: 1px solid rgb(137, 132, 132);
+  border-radius: 250px;
+
+}
+.profile-picture {
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 25px;
+  margin-top: 25px;
+  
+
+}
+
+
+/*=====================ABOUT-SECTION====================*/
+.home-section-container,
+.about-section-container,
+.skills-section-container,
+.projects-section-container,
+.contact-section-container {
+  height: 500px;
+  margin-top: 80px;
+}
+
+
+
+/*=====================SKILLS-SECTION====================*/
+
+
+
+
+/*=====================PROJECTS-SECTION====================*/
+
+
+
+
+
+/*=====================CONTACT-SECTION====================*/
+
+>>>>>>> 90f0cfd1b48da0104cc4db6a29d00b369cbf2e39

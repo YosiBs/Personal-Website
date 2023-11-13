@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   padding-left: 160px;
@@ -21,4 +22,30 @@ p {
 h1 {
   padding: 0;
   margin: 0;
+=======
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 160px;
+  background-color: var(--main-color);
+}
+
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+:root {
+  --main-color: #006DAA;
+  --sidebar-color: #061A40;
+  --text-color: #B9D6F2;
+  --button-on-hover-color: #003559; 
+
+}
+
+.h1 {
+  padding: 0;
+  margin: 0;
+>>>>>>> 90f0cfd1b48da0104cc4db6a29d00b369cbf2e39
 }
