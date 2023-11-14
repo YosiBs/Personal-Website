@@ -23,13 +23,13 @@ function scrollToSection(sectionId){
 
 function highlightSectionButton(sidebarBtnElem) {
   window.addEventListener('scroll', () => {
-    const scrollPosition = window.scrollY;
+    const scrollPosition = window.scrollY + 20;
     sidebarBtnElem.forEach(button => {
       const targetId = button.getAttribute('data-target');
       const targetSection = document.getElementById(targetId);
       const sectionTop = targetSection.offsetTop;
       const sectionBottom = sectionTop + targetSection.offsetHeight;
-      if(scrollPosition >= sectionTop - 20 && scrollPosition < sectionBottom) {
+      if(scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
         button.classList.add('highlighted');
       }else{
         button.classList.remove('highlighted');

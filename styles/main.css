@@ -73,7 +73,111 @@
 /*=====================CONTACT-SECTION====================*/
 
 .contact-section-container {
-  
+  background-color: var(--text-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 100px 100px 300px 100px;
+  width: 80%;
+  height: 50%;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(50, 45, 45);
+}
 
+/*=====================CONTACT-LEFT-SIDE====================*/
+
+.contact-left-side{
+  display: grid;
+  grid-template-rows: auto;
+  margin: 20px;
+  border-right: 2px solid black;
+}
+
+.contact-left-side p,
+.contact-left-side h1 {
+  color: #111;
+  font-family: Roboto ,arial;
+  font-size: 20px;
+  align-self: center;
+  justify-self: center;
+}
+.contact-left-side h1 {
+  font-size: 50px;
+}
+
+
+.chat-bubble {
+  width: 100%;
+  animation: imageFloatUpDown 2s ease-in-out infinite;
+}
+
+
+@keyframes imageFloatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/*=====================CONTACT-RIGHT-SIDE====================*/
+
+.contact-right-side {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-input,
+.email-input,
+.message-input,
+.phone-input {
+  display: block;
+  background-color: #F2F6F8;
+  color: gray;
+  border: none;
+  border-radius: 20px;
+  width: 80%;
+  height: 35px;
+  margin-top: 20px;
+  padding-left: 7px;
+  padding-top: 2px;
+}
+
+.message-input {
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 5px;
+  resize: vertical;
+  max-height: 250px;
+  min-height: 50px;
+}
+
+.send-button {
+  background-color: var(--sidebar-color);
+  color: var(--text-color);
+  width: 90px;
+  height: 40px;
+  font-family: Roboto, arial;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 45px;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 2px 2px 3px rgb(86, 86, 86);
+  cursor: pointer;
+}
+
+.send-button:active {
+  opacity: 45%;
+  box-shadow: none;
+}
+.send-button:hover {
+  background-color: var(--button-on-hover-color);
 }
 

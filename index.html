@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Yosi's Website</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/header.css">
@@ -66,7 +66,7 @@
     
   </aside>
   
-  <!-- MAIN PAGE -->
+  <!-- ===============MAIN PAGE=============== -->
   <main class="main-container">
     <section id="home-section">
       <div class="home-section-container">
@@ -74,11 +74,11 @@
           <h1 >Hi, im Yosi Ben Shushan, a Software Engineer Student</h1>
         </div>
         <div class="profile-picture-container">
-          <img class="profile-picture" src="assets/images/Profile-Picture2.jpg">
+          <img class="profile-picture" src="assets/images/Profile-Picture2.jpg" alt="Yosi's Picture">
         </div>
       </div>
     </section>
-    
+  <!-- ===============ABOUT=============== -->
     <section id="about-section">
       <div class="about-section-container">
         <div>
@@ -86,7 +86,7 @@
         </div>
       </div>
     </section>
-    
+  <!-- ===============SKILLS=============== -->
     <section id="skills-section">
       <div class="skills-section-container">
         <div>
@@ -94,7 +94,7 @@
         </div>
       </div>
     </section>
-    
+    <!-- ===============PROJECTS=============== -->
     <section id="projects-section">
       <div class="projects-section-container">
         <div>
@@ -102,21 +102,26 @@
         </div>
       </div>
     </section>
+    <!-- ===============CONTACT=============== -->
     <section id="contact-section">
       <div class="contact-section-container">
-        <div>
-          <h1>this is where the contact section begin</h1>
+        <div class="contact-left-side">
+          <h1>Let's Chat</h1>
+          <p>Feel free to send me a message in the contact form</p>
+          <img class="chat-bubble" src="assets/chat-bubble-front-color.png">
+
         </div>
-        <div>
-          Email: <input type="text">
-        </div>
-        <div>
-          Text: <input type="text">
+        <div class="contact-right-side">
+          <input type="text" class="name-input" placeholder="Name *">
+          <input type="text" class="email-input" placeholder="Email *">
+          <input type="text" class="phone-input" placeholder="Phone">
+          <textarea class="message-input" placeholder="Message"></textarea>
+          <button class="send-button">Send</button>
         </div>
       </div>
     </section>
   </main>
-
+  <!-- ===============FOOTER=============== -->
   <footer>
     <div class="footer-container">
       footer
