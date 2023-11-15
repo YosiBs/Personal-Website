@@ -5,89 +5,90 @@
   <title>Yosi's Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/general.css">
-  <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/sidebar.css">
   <link rel="stylesheet" href="styles/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="page">
 
-
-  <!-- HEADER -->
-  <!-- 
-    <header class="header-container">
-    <p class="header-headline">
-      Yosi's Website
-    </p>
-  </header> 
-  -->
-
-  <!-- SIDEBAR -->
-  <aside class="sidebar-container">
-    <nav class="upper-section-container">
-      
-      <button class="navigation-button" data-target="home-section">
-        <img class="home-btn-image" src="assets/icons/new-icons/home-2-line.png">
-        <p class="nav-btn-text">Home</p>
-      </button>
-      <button class="navigation-button" data-target="about-section">
-        <img class="about-btn-image" src="assets/icons/new-icons/file-info-line.png">
-        <p class="nav-btn-text">About</p>
-      </button>
-      <button class="navigation-button" data-target="skills-section">
-        <img class="skills-btn-image" src="assets/icons/new-icons/checkbox-skills-line.png">
-        <p class="nav-btn-text">Skills</p>
-      </button>
-      <button class="navigation-button" data-target="projects-section">
-        <img class="projects-btn-image" src="assets/icons/new-icons/rocket-line.png">
-        <p class="nav-btn-text">Projects</p>
-      </button>
-      <button class="navigation-button" data-target="contact-section">
-        <img class="contact-btn-image" src="assets/icons/new-icons/contacts-line.png">
-        <p class="nav-btn-text">Contact</p>
-      </button>
-    </nav>
-
-    <div class="downer-section-container">
-      <div class="link-buttons-container">
-        <a href="https://www.linkedin.com/in/yosi-ben-shushan-869a5a248/" target="_blank">
-          <button class="social-link-btn"><img class="linkedin-btn-image" src="assets/icons/new-icons/linkedin-box-line.png"></button>
-        </a>
-        <a href="https://github.com/YosiBs" target="_blank">
-          <button class="social-link-btn"><img class="github-btn-image" src="assets/icons/new-icons/github-line.png"></button>
-        </a>
-        <a href="https://www.facebook.com/yosi.y.yosi.9" target="_blank">
-          <button class="social-link-btn"><img class="facebook-btn-image" src="assets/icons/new-icons/facebook-box-line.png"></button>
-        </a>
-      </div>
-      
-    </div>
     
-  </aside>
-  
-  <!-- ===============MAIN PAGE=============== -->
-  <main class="main-container">
-    <section id="home-section">
-      <div class="home-section-container">
-        <div class="home-headline">
-          <h1 >Hi, im Yosi Ben Shushan, a Software Engineer Student</h1>
-        </div>
-        <div class="profile-picture-container">
-          <img class="profile-picture" src="assets/images/Profile-Picture2.jpg" alt="Yosi's Picture">
-        </div>
-      </div>
-    </section>
-  <!-- ===============ABOUT=============== -->
-    <section id="about-section">
-      <div class="about-section-container">
+    <!-- HEADER -->
+    <!-- 
+      <header class="header-container">
+        <p class="header-headline">
+          Yosi's Website
+        </p>
+      </header> 
+    -->
+    
+    <!-- SIDEBAR -->
+    <aside>
+      <nav>
+        <button class="navigation-button" data-target="home-section">
+          <img class="home-btn-image" src="assets/icons/new-icons/home-2-line.png">
+          <p class="nav-btn-text">Home</p>
+        </button>
+        <button class="navigation-button" data-target="about-section">
+          <img class="about-btn-image" src="assets/icons/new-icons/file-info-line.png">
+          <p class="nav-btn-text">About</p>
+        </button>
+        <button class="navigation-button" data-target="skills-section">
+          <img class="skills-btn-image" src="assets/icons/new-icons/checkbox-skills-line.png">
+          <p class="nav-btn-text">Skills</p>
+        </button>
+        <button class="navigation-button" data-target="projects-section">
+          <img class="projects-btn-image" src="assets/icons/new-icons/rocket-line.png">
+          <p class="nav-btn-text">Projects</p>
+        </button>
+        <button class="navigation-button" data-target="contact-section">
+          <img class="contact-btn-image" src="assets/icons/new-icons/contacts-line.png">
+          <p class="nav-btn-text">Contact</p>
+        </button>
+      </nav>
+    
+      <div class="link-buttons-container">
         <div>
-          <h1>this is where the about section begin</h1>
+          <a href="https://www.linkedin.com/in/yosi-ben-shushan-869a5a248/" target="_blank">
+            <button class="social-link-btn"><img class="linkedin-btn-image" src="assets/icons/new-icons/linkedin-box-line.png"></button>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/YosiBs" target="_blank">
+            <button class="social-link-btn"><img class="github-btn-image" src="assets/icons/new-icons/github-line.png"></button>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/yosi.y.yosi.9" target="_blank">
+            <button class="social-link-btn"><img class="facebook-btn-image" src="assets/icons/new-icons/facebook-box-line.png"></button>
+          </a>
         </div>
       </div>
-    </section>
-  <!-- ===============SKILLS=============== -->
-    <section id="skills-section">
+    </aside>
+    
+    <!-- ===============MAIN PAGE=============== -->
+    <!-- <main class="main-container"> -->
+      <section id="home-section">
+        <div class="home-section-container">
+          <div class="home-headline">
+            <h1 >Hi, im Yosi Ben Shushan, a Software Engineer Student</h1>
+          </div>
+          <div class="profile-picture-container">
+            <img class="profile-picture" src="assets/images/Profile-Picture2.jpg" alt="Yosi's Picture">
+          </div>
+        </div>
+      </section>
+      <!-- ===============ABOUT=============== -->
+      <section id="about-section">
+        <div class="about-section-container">
+          <div>
+            <h1>this is where the about section begin</h1>
+          </div>
+        </div>
+      </section>
+      <!-- ===============SKILLS=============== -->
+      <section id="skills-section">
       <div class="skills-section-container">
         <div>
           <h1>this is where the skill section begin</h1>
@@ -109,7 +110,7 @@
           <h1>Let's Chat</h1>
           <p>Feel free to send me a message in the contact form</p>
           <img class="chat-bubble" src="assets/chat-bubble-front-color.png">
-
+          
         </div>
         <div class="contact-right-side">
           <input type="text" class="name-input" placeholder="Name *">
@@ -120,16 +121,10 @@
         </div>
       </div>
     </section>
-  </main>
-  <!-- ===============FOOTER=============== -->
-  <footer>
-    <div class="footer-container">
-      footer
-    </div>
-
-  </footer>
-
+  <!-- </main> -->
+  
+</div>
   <script src="scripts/navigation.js"></script>
-    
-  </body>
+  
+</body>
 </html>

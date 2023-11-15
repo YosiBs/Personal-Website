@@ -1,3 +1,45 @@
+.page {
+  display: grid;
+  grid-template-columns: 0.11fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "sidebar home-section"
+  "none about-section"
+  "none skills-section"
+  "none projects-section"
+  "none contact-section";
+  gap: 20px;
+  height: 100%;
+}
+
+#home-section {
+  background-color: rgb(153, 84, 96);
+  grid-area: home-section;
+}
+#about-section {
+  background-color: rgb(61, 93, 78);
+  grid-area: about-section;
+}
+#skills-section {
+  background-color: rgb(220, 192, 255);
+  grid-area: skills-section;
+}
+#projects-section {
+  background-color: rgb(192, 241, 255);
+  grid-area: projects-section;
+}
+#contact-section {
+  background-color: rgb(255, 213, 192);
+  grid-area: contact-section;
+}
+aside {
+  background-color: rgb(201, 81, 20);
+  grid-area: sidebar;
+}
+
+
+
+
 /*=====================MAIN====================*/
 
 .main-container {
@@ -47,7 +89,7 @@
 
 .home-headline {
   font-family: Roboto, Arial;
-  font-size: 1.2rem;
+  font-size: clamp(0.5rem, 1rem + 10vw ,1rem);
   color: var(--text-color);
   grid-row: 1;
   grid-column: 2;
@@ -72,16 +114,22 @@
 
 /*=====================CONTACT-SECTION====================*/
 
+#contact-section { 
+  display: grid;
+  place-items: center;
+}
+
 .contact-section-container {
   background-color: var(--text-color);
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 100px 100px 300px 100px;
+  grid-template-columns: 0.7fr 1fr;
+  margin: auto;
+  align-items: top;
   width: 80%;
   height: 50%;
   border: 2px solid black;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px rgb(50, 45, 45);
+  box-shadow: 0px 5px 5px rgb(50, 45, 45);
 }
 
 /*=====================CONTACT-LEFT-SIDE====================*/
@@ -180,4 +228,3 @@
 .send-button:hover {
   background-color: var(--button-on-hover-color);
 }
-
